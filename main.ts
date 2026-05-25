@@ -2,7 +2,7 @@
 namespace myExtensionWithArgs {
 
     //% block="echo %str"
-    function echo (str: string): void {
+    export function echo (str: string): void {
         basic.showString(str)
     }
 }
